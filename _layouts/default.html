@@ -1,0 +1,40 @@
+---
+layout: compress
+---
+
+<!doctype html>
+<html lang="en" class="no-js">
+
+<head>
+  {% include head.html %}
+  {% include head/custom.html %}
+</head>
+
+<body>
+
+  {% include browser-upgrade.html %}
+  {% include masthead.html %}
+
+  <div id="main" role="main">
+    {% include sidebar.html %}
+
+    <article class="page" itemscope itemtype="http://schema.org/CreativeWork">
+      {% if page.title %}
+      <meta itemprop="headline" content="{{ page.title | markdownify | strip_html | strip_newlines | escape_once }}">{%
+      endif %}
+      <div class="page__inner-wrap">
+        <section class="page__content" itemprop="text">
+          {{ content }}
+
+          <div id="map-container" class="map-embed">
+            <script type="text/javascript" id="mapmyvisitors"
+              src="https://mapmyvisitors.com/map.js?cl=ffffff&w=300&t=tt&d=8q1pnVmDEchNUc6WHqxo5zT0-OiN1l_7IxS9o3iCt7o&co=2d78ad&cmo=3acc3a&cmn=ff5353&ct=ffffff"></script>
+          </div>
+        </section>
+      </div>
+    </article>
+  </div>
+  {% include scripts.html %}
+</body>
+
+</html>

@@ -1,0 +1,5 @@
+_site/
+push.sh
+.DS_Store
+resume/*
+!resume/Chiao-Tung Chan_Resume.pdf

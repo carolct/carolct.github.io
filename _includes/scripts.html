@@ -1,0 +1,13 @@
+<script src="assets/js/main.min.js"></script>
+
+{% include analytics.html %}
+{% include fetch_google_scholar_stats.html %}
+
+<script>
+  // Initial theme state is applied in <head> to prevent FOUC.
+  // This handler just toggles the class on <html> and persists the choice.
+  document.getElementById('theme-toggle')?.addEventListener('click', function () {
+    var isDark = document.documentElement.classList.toggle('dark');
+    localStorage.setItem('theme', isDark ? 'dark' : 'light');
+  });
+</script>
