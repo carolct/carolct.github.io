@@ -32,7 +32,7 @@ Most recently I led the Self-Driving Vehicle Department's R&D at the [Industrial
 
   **Algorithm development: localization & tracking**
   - Spearheaded the 0-to-1 architecture and cross-border deployment of a safety-critical Visual-Inertial Localization pipeline (camera / IMU / odometry) with RTK-backed ground-truth validation, driving international commercialization at the Toyota Driving School (Japan) and Taiwan testing fields within a 12-month window.
-  - Defined the technical vision for a modular C++ object-tracking framework — extensible abstract interfaces for heterogeneous sensor modalities (radar x/y/z/rv, camera IDs) using IMM-UKF, creating a 2× development-velocity multiplier across the Localization and Fusion teams.
+  - Defined the technical vision for a modular C++ object-tracking framework — extensible abstract interfaces for heterogeneous sensor modalities (radar x/y/z/rv, camera IDs) using Fixed-Lag IMM-RAUKF, creating a 2× development-velocity multiplier across the Localization and Fusion teams.
   - Pioneered a novel L-Shape tracking method using Iterative Closest Point (ICP) to directly infer precise vehicle yaw, bypassing legacy non-linear state-estimator limits in degenerate scenarios — translated into a sole-inventor 3D Object Detection patent.
 
   **AI acceleration & edge-compute optimization**
@@ -70,7 +70,7 @@ Most recently I led the Self-Driving Vehicle Department's R&D at the [Industrial
 
 # 🛠️ Core Competencies
 
-- **Algorithm & Autonomy**: Visual-Inertial Localization, Sensor Fusion, Object Tracking (IMM-UKF, ICP)
+- **Algorithm & Autonomy**: Visual-Inertial Localization, Sensor Fusion, Object Tracking (Fixed-Lag IMM-RAUKF, ICP)
 - **AI Acceleration & Compute**: CUDA, TensorRT, Memory Management (zero-copy), HW/SW Co-design
 - **Infrastructure & MLOps**: C++, Python, ROS1 / ROS2, AWS CI/CD, Nix, Active-Learning Data Pipelines
 - **Leadership & Compliance**: ISO 26262 Functional Safety, Team Scaling, Roadmap Planning, Agile / SOP
