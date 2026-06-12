@@ -8,7 +8,7 @@ import os
 pg = ProxyGenerator()
 if not pg.ScraperAPI(os.environ['SCRAPERAPI_KEY']):
     raise RuntimeError("ScraperAPI proxy setup failed (bad key or no credits left)")
-scholarly.use_proxy(pg)
+scholarly.use_proxy(pg, pg)  # secondary too, else scholarly falls back to broken FreeProxies
 
 author: dict = scholarly.search_author_id(os.environ['GOOGLE_SCHOLAR_ID'])
 scholarly.fill(author, sections=['basics', 'indices', 'counts', 'publications'])
