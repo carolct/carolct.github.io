@@ -31,19 +31,19 @@ Most recently I led the Self-Driving Vehicle Department's R&D at the [Industrial
 - *2019.04 – 2026.06*, **R&D Manager, Self-Driving Vehicle Department**, Industrial Technology Research Institute (ITRI), Hsinchu, Taiwan
 
   **Algorithm development: localization & tracking**
-  - Spearheaded the 0-to-1 architecture and cross-border deployment of a safety-critical Visual-Inertial Localization pipeline (camera / IMU / odometry) with RTK-backed ground-truth validation, driving international commercialization at the Toyota Driving School (Japan) and Taiwan testing fields within a 12-month window.
-  - Defined the technical vision for a modular C++ object-tracking framework — extensible abstract interfaces for heterogeneous sensor modalities (radar x/y/z/rv, camera IDs) using Fixed-Lag IMM-RAUKF, creating a 2× development-velocity multiplier across the Localization and Fusion teams.
-  - Pioneered a novel L-Shape tracking method using Iterative Closest Point (ICP) to directly infer precise vehicle yaw, bypassing legacy non-linear state-estimator limits in degenerate scenarios — translated into a sole-inventor 3D Object Detection patent.
+  - Spearheaded the 0-to-1 architecture and cross-border deployment of a safety-critical Visual-Inertial Localization pipeline (camera / IMU / odometry), establishing RTK-backed ground-truth validation infrastructure — successfully driving international commercialization at the Toyota Driving School (Japan) and Taiwan testing fields within a tight 12-month window.
+  - Defined the enterprise technical vision for a modular C++ object-tracking framework — extensible abstract interfaces for heterogeneous sensor modalities (radar x/y/z/rv, camera IDs) utilizing Fixed-Lag IMM-RAUKF, creating a 2× development-velocity multiplier that unblocked parallel delivery for the Localization and Fusion teams.
+  - Innovated proprietary modifications to traditional BEV-based Iterative Closest Point (ICP) algorithms, extending them to precise 3D object detection natively within the visual-inertial localization pipeline — this breakthrough, alongside a novel localization-based dynamic camera calibration method, resulted in two commercially valuable patents (one sole-inventor, one lead-inventor).
 
   **AI acceleration & edge-compute optimization**
-  - Overhauled the deep-learning inference architecture into a Reactive (Rx) streaming paradigm and engineered a custom zero-copy memory-management framework on TensorRT, sustaining 95% GPU utilization while guaranteeing deterministic, safety-critical real-time latency.
-  - Led a HW/SW co-design initiative to resolve system-level thermal throttling and OOM failures — defined end-to-end latency budgets (e.g., 28 Hz for visual localization) and adaptive filters to prune stale sensor data, steering the physical thermal redesign of the vehicle compute trunk.
-  - Architected a decentralized edge-compute paradigm with hardware partner Chimei, migrating image compression and NN inference onto edge ASICs to eliminate bulky frame grabbers and central compute bottlenecks.
+  - Integrated the deep-learning inference pipeline natively into a modern Reactive (Rx) streaming architecture and engineered a custom zero-copy memory-management framework on TensorRT, sustaining 95% GPU utilization while guaranteeing deterministic, safety-critical real-time latency.
+  - Engineered a dedicated scheduling module that actively drops stale sensor data against strict latency budgets (e.g., 28 Hz for visual localization), enhancing real-time performance and issue reproducibility — collaborated with hardware technicians using CPU/GPU thermal logs and power-consumption metrics to finalize the physical cooling redesign of the vehicle compute trunk.
+  - Orchestrated a strategic edge-compute offloading roadmap with hardware partner Chimei, adopting edge ASICs to natively handle image compression and NN inference — permanently eliminating bulky frame grabbers and alleviating central compute bottlenecks.
 
   **Technical leadership & infrastructure (DevOps)**
   - Scaled a cross-functional engineering team from 4 to 10+ members and set a 4-year technical roadmap focused on resilient scalability and continuous automated functional-safety validation.
-  - Orchestrated a 6-month ROS1 → ROS2 migration for a junior team with strict SOPs and automated CI/CD pipelines (AWS & internal servers) for bag-file playback, eradicating deployment regressions.
-  - Engineered an automated Active-Learning data pipeline that replays offline bag files against ML detectors, using mismatch-trigger logic (track vs. future-track discrepancies) to mine hard-negative edge cases — a closed-loop engine for continuous model refinement.
+  - Orchestrated a massive 6-month ROS1 → ROS2 migration for a junior team — strict SOPs, decomposed tasks (message interface, TF, bag conversion), and automated CI/CD pipelines (AWS & internal servers) for bag-file playback, eradicating deployment regressions.
+  - Engineered an automated Active-Learning data pipeline that executes offline bag-file playbacks against ML object detectors, with mismatch-trigger logic (tracker vs. detector discrepancies) to mine hard-negative edge cases — a closed-loop engine for continuous model refinement.
 
 # 📝 Publications
 
