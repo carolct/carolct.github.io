@@ -49,17 +49,17 @@ Most recently I led the Self-Driving Vehicle Department's R&D at the [Industrial
 
 <a href='https://scholar.google.com/citations?user=3yH9i58AAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>
 
-- ``ICDE 2024`` [TimeDRL: Disentangled Representation Learning for Multivariate Time-Series](https://arxiv.org/abs/2312.04142), Ching Chang, **Chiao-Tung Chan**, Wei-Yao Wang, Wen-Chih Peng, Tien-Fu Chen.
-
 - ``ICRA 2025`` RMSeg-UDA: Unsupervised Domain Adaptation for Road Marking Segmentation under Adverse Conditions, Yu-Chen Cai, Hsuan-Chih Hsiao, Wei-Chen Chiu, Hsiu-Yu Lin, **Chiao-Tung Chan**.
 
 - ``IV 2025`` FuseRoad: Enhancing Lane Shape Prediction Through Semantic Knowledge Integration and Cross-Dataset Training, Hsuan-Chih Hsiao, Yu-Chen Cai, Hsiu-Yu Lin, Wei-Chen Chiu, **Chiao-Tung Chan**, Chieh-Chih Wang.
 
-- ``ICCE-Taiwan 2023`` RLMD: A Dataset for Road Marking Segmentation, Hsuan-Chih Hsiao, Yu-Chen Cai, Hsiu-Yu Lin, Wei-Chen Chiu, **Chiao-Tung Chan**.
+- ``arXiv 2025`` [MemPromptTSS: Persistent Prompt Memory for Iterative Multi-Granularity Time Series State Segmentation](https://arxiv.org/abs/2510.09930), Ching Chang, Ming-Chih Lo, **Chiao-Tung Chan**, Wen-Chih Peng, Tien-Fu Chen.
 
-- ``arXiv 2025`` MemPromptTSS: Persistent Prompt Memory for Iterative Multi-Granularity Time Series State Segmentation, Ching Chang, Ming-Chih Lo, **Chiao-Tung Chan**, Wen-Chih Peng, Tien-Fu Chen.
+- ``ICDE 2024`` [TimeDRL: Disentangled Representation Learning for Multivariate Time-Series](https://arxiv.org/abs/2312.04142), Ching Chang, **Chiao-Tung Chan**, Wei-Yao Wang, Wen-Chih Peng, Tien-Fu Chen.
 
 - ``NeurIPS 2024 (Workshop: Self-Supervised Learning — Theory and Practice)`` [Self-Supervised Learning of Disentangled Representations for Multivariate Time-Series](https://openreview.net/forum?id=GnME2Gx5H3), Ching Chang, **Chiao-Tung Chan**, Wei-Yao Wang, Wen-Chih Peng, Tien-Fu Chen.
+
+- ``ICCE-Taiwan 2023`` RLMD: A Dataset for Road Marking Segmentation, Hsuan-Chih Hsiao, Yu-Chen Cai, Hsiu-Yu Lin, Wei-Chen Chiu, **Chiao-Tung Chan**.
 
 # 📜 Certifications & Patents
 
