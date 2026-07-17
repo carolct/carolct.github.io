@@ -19,7 +19,7 @@ redirect_from:
 
 Hello 👋, I'm **Chiao-Tung (Carol) Chan**, a Staff Software Engineer / R&D Manager and **Autonomous Systems Architect**. I'm **ISO 26262 certified (AFSP)** with 7+ years of full-stack experience spanning algorithm design (**Localization & Tracking**) down to low-level hardware optimization (**Edge AI & Compute**).
 
-Most recently I led the Self-Driving Vehicle Department's R&D at the [Industrial Technology Research Institute (ITRI)](https://www.itri.org.tw/english/) in Hsinchu, Taiwan — building 0-to-1 autonomous driving systems, deploying robust **Visual-Inertial Localization** and **Sensor Fusion** pipelines in international testing fields, and scaling the team from 4 to 10+ engineers. My deeper strengths are C++ system architecture, mitigating complex HW/SW bottlenecks (zero-copy memory management, TensorRT acceleration), and building scalable, safety-critical CI/CD infrastructure. I'm currently **open to relocation** (incl. Mountain View / San Francisco).
+Most recently I led the Self-Driving Vehicle Department's R&D at the [Industrial Technology Research Institute (ITRI)](https://www.itri.org.tw/english/) in Hsinchu, Taiwan — building 0-to-1 autonomous driving systems, deploying robust **Visual-Inertial Localization** and **Sensor Fusion** pipelines in international testing fields, and scaling the team from 4 to 10+ engineers. My deeper strengths are C++ system architecture, mitigating complex HW/SW bottlenecks (zero-copy memory management, TensorRT acceleration), and building scalable, safety-critical CI/CD infrastructure. I'm currently based in **San Francisco, CA**.
 
 # 📖 Education
 
