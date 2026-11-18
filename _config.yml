@@ -7,7 +7,7 @@
 
 # Site Settings
 title                    : "Chiao-Tung (Carol) Chan"
-description              : "Autonomous Systems • Localization & Tracking • Sensor Fusion • Edge AI • ISO 26262"
+description              : "Robotics and autonomous systems engineer specializing in perception, map-based localization, multi-object tracking, sensor fusion, and C++/ROS systems."
 repository               : "carolct/carolct.github.io"
 google_scholar_stats_use_cdn : true
 
@@ -23,8 +23,8 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 author:
   name             : "Chiao-Tung (Carol) Chan"
   avatar           : "images/profile.jpg"
-  bio              : "Staff Software Engineer / R&D Manager · Autonomous Systems"
-  location         : "San Francisco, CA"
+  bio              : "Robotics & Autonomous Systems Engineer"
+  location         : "San Francisco Bay Area, CA"
   employer         :
   pubmed           :
   googlescholar    : "https://scholar.google.com/citations?user=3yH9i58AAAAJ"
