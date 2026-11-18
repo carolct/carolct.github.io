@@ -49,7 +49,6 @@ Co-designed a shared C++ camera pipeline with sensor firmware engineers, definin
 
 I led a six-month ROS 1 to ROS 2 migration covering message interfaces, coordinate transforms, and bag conversion. I also built semi-automated rosbag replay to verify inputs and profile per-node FPS and latency before vehicle testing.
 
-<span class='anchor' id='experience'></span>
 <span class='anchor' id='-work-experience'></span>
 
 # Experience
@@ -91,7 +90,6 @@ Managed nine direct reports, including hiring, technical reviews, performance re
 - **Automotive Functional Safety Professional (AFSP), ISO 26262**<br>
   SGS TÜV Saar.
 
-<span class='anchor' id='education'></span>
 <span class='anchor' id='-education'></span>
 
 # Education
@@ -102,7 +100,6 @@ Hsinchu, Taiwan
 - M.S. in Electrical Engineering, 2019
 - B.S. in Electrical Engineering, 2016
 
-<span class='anchor' id='technical-skills'></span>
 <span class='anchor' id='-core-competencies'></span>
 
 # Technical Skills
@@ -111,7 +108,6 @@ Hsinchu, Taiwan
 - **Software & Systems:** C++, Python, ROS 1 / ROS 2, ONNX, TensorRT, CUDA, PTP, rosbag.
 - **Validation:** Vehicle field testing, RTK-GPS reference evaluation, track-consistency checks, replay-based FPS and latency profiling.
 
-<span class='anchor' id='contact'></span>
 
 # Contact
 
